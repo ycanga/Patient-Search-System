@@ -2,9 +2,9 @@
 
 error_reporting(0);
 
-$dsn = "mysql:host=localhost;dbname=hasta-list;charset=utf8mb4";
-$user = "root";
-$passwd = "";
+$dsn = "mysql:host=localhost;dbname=k4lphasof_help;charset=utf8mb4";
+$user = "k4lphasof_help";
+$passwd = "12345";
 
 try {
     $db = new PDO($dsn, $user, $passwd);
